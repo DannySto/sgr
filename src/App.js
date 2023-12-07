@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Solid Groove Records
+          -- Solid Groove Records --
         </p>
       </header>
     </div>
