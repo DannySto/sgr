@@ -39,4 +39,4 @@ jobs:
     - name: curl
       with:
           webhook_secret: ${{ secrets.SECRET }}
-        run: curl "webhook_secret"
+      run: curl "webhook_secret"
