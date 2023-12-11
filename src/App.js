@@ -13,7 +13,7 @@ function App() {
     // </div>
     <div className="content">
       <header>
-        <img src="https://i1.sndcdn.com/avatars-000076582753-fqczb5-t500x500.jpg" id="avatar"></img>
+        <img src="sgr.jpg"  alt="Solid Groove Records" id="avatar"></img>
         <h1>SOLID GROOVE RECORDS</h1>
         <ul>
           <li><a class="fa fa-2x fa-facebook" href="https://facebook.com/solidgrooverecords"><span class="description">Facebook</span></a></li>
