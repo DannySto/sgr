@@ -37,4 +37,4 @@ jobs:
       run: npm run build
 
     - name: curl
-      run: curl {{ SECRET }}
+      run: curl ${{ SECRET }}
