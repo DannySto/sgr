@@ -1,4 +1,4 @@
-name: CI/CD
+name: SGR Build
 
 on:
   push:
@@ -36,6 +36,6 @@ jobs:
     - name: Build
       run: npm run build
 
-    - name: curl
+    - name: exec webhook
       run: |
         curl ${{ secrets.SECRET }}
