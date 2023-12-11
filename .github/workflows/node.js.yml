@@ -37,6 +37,5 @@ jobs:
       run: npm run build
 
     - name: curl
-      with:
-          webhook_secret: ${{ secrets.SECRET }}
-      run: curl "webhook_secret"
+      run: |
+        curl ${{ secrets.SECRET }}
