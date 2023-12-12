@@ -28,7 +28,7 @@ jobs:
       run: npm install
 
     - name: Run the tests and generate coverage report
-      run: npm test -- --coverage  >> "$GITHUB_OUTPUT"
+      run: npm test -- --coverage 
     
     - id: env-setup
       run: |
