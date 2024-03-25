@@ -39,6 +39,6 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-private-property-in-object": "^7.23.4",
-    "@testing-library/react": "^14.2.1"
+    "@testing-library/react": "^14.2.2"
   }
 }
